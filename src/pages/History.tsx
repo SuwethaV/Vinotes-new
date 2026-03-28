@@ -24,7 +24,7 @@ export default function History() {
       return;
     }
 
-    fetch('${import.meta.env.VITE_API_BASE_URL}/api/documents/history', {
+    fetch(`${import.meta.env.VITE_API_BASE_URL}/api/documents/history`, {
       headers: { 'Authorization': `Bearer ${token}` }
     })
       .then(res => {

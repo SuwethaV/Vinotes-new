@@ -53,7 +53,7 @@ export default function History() {
       {/* Header section */}
       <header className="header" style={{borderBottom: '1px solid var(--border-color)'}}>
         <div className="logo-section">
-          <div className="logo-icon">V</div>
+          <div className="logo-icon">T</div>
           <div className="logo-text">
              <h1>TrueScript AI</h1>
              <p>Human Authenticity Platform</p>

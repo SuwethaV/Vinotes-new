@@ -33,7 +33,7 @@ export default function Register() {
       <div className="auth-card">
         <div className="auth-header">
           <div className="logo-section" style={{justifyContent: 'center'}}>
-            <div className="logo-icon">V</div>
+            <div className="logo-icon">T</div>
             <div className="logo-text">
               <h1>TrueScript AI</h1>
               <p>Authenticity Platform</p>

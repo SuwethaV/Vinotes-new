@@ -163,7 +163,7 @@ ${content}`;
       {/* Header section */}
       <header className="header">
         <div className="logo-section">
-          <div className="logo-icon">V</div>
+          <div className="logo-icon">T</div>
           <div className="logo-text">
             <h1>TrueScript AI</h1>
             <p>Human Authenticity Platform</p>

@@ -36,7 +36,7 @@ export default function Login() {
           <div className="logo-section" style={{justifyContent: 'center'}}>
             <div className="logo-icon">V</div>
             <div className="logo-text">
-              <h1>Vi-Notes</h1>
+              <h1>TrueScript AI</h1>
               <p>Authenticity Platform</p>
             </div>
           </div>

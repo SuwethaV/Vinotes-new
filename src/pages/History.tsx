@@ -55,7 +55,7 @@ export default function History() {
         <div className="logo-section">
           <div className="logo-icon">V</div>
           <div className="logo-text">
-             <h1>Vi-Notes</h1>
+             <h1>TrueScript AI</h1>
              <p>Human Authenticity Platform</p>
           </div>
         </div>

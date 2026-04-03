@@ -114,7 +114,7 @@ export default function Dashboard() {
       showToast('No document content to export.', 'info');
       return;
     }
-    const reportText = `Vi-Notes Authenticity Report
+    const reportText = `TrueScript AI Authenticity Report
 -----------------------------
 Confidence Score: ${authScore}%
 Evaluation: ${analysisFeedback}
@@ -127,7 +127,7 @@ ${content}`;
     const url = URL.createObjectURL(blob);
     const a = document.createElement('a');
     a.href = url;
-    a.download = `vi-notes-report-${new Date().toISOString().slice(0, 10)}.txt`;
+    a.download = `truescript-ai-report-${new Date().toISOString().slice(0, 10)}.txt`;
     a.click();
     URL.revokeObjectURL(url);
     
@@ -165,7 +165,7 @@ ${content}`;
         <div className="logo-section">
           <div className="logo-icon">V</div>
           <div className="logo-text">
-            <h1>Vi-Notes</h1>
+            <h1>TrueScript AI</h1>
             <p>Human Authenticity Platform</p>
           </div>
         </div>
@@ -195,7 +195,7 @@ ${content}`;
         {/* Left Column: Editor */}
         <div className="editor-column">
           <div className="page-header">
-            <h2 className="page-title">Welcome to Vi-Notes</h2>
+            <h2 className="page-title">Welcome to TrueScript AI</h2>
             <p className="page-subtitle">Verify your writing's authenticity.</p>
           </div>
 

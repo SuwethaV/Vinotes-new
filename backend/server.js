@@ -11,7 +11,7 @@ const JWT_SECRET = process.env.JWT_SECRET;
 
 // 1. Database Connection
    mongoose.connect(process.env.MONGO_URI)
-  .then(() => console.log('MongoDB Connected to vinotes'))
+  .then(() => console.log('MongoDB Connected to TrueScript AI'))
   .catch(err => console.log('MongoDB Connection Error:', err));
 
 // 2. Models
